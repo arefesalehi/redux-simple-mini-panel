@@ -1,0 +1,78 @@
+.header{
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px 0 60px 0;
+    padding: 15px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.header-right{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-right img {
+width: 70px;
+height: 70px;
+margin-left: 15px;
+border-radius: 5px;
+
+}
+.header-right p:first-child{
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 35px;
+}
+.header-right p:last-child{
+    color: rgb(134, 131, 131);
+}
+
+.header-left{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-left div{
+    width: 60px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 10px;
+color:white;
+border-radius: 5px;
+position: relative;
+
+
+}
+
+.header-left div svg {
+    width: 20px;
+    height: 20px;
+}
+
+.header-left button{
+    padding: 15px;
+    border-radius: 5px;
+    background-color: blue;
+    color: white;
+    border: none;
+}
+.notif{
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border-radius: 3px;
+    position: absolute;
+    left: 407px;
+    top: 57px;
+}

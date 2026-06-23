@@ -1,0 +1,76 @@
+.coursebox{
+    width: 95%;
+    height: 150px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin: 25px auto;
+    display: flex;
+    position: relative;
+    border-radius: 5px;
+    overflow: hidden;
+
+
+}
+
+.coursebox-right img{
+    overflow: hidden;
+    height: 150px;
+    width: 250px;
+}
+
+.coursebox-left-top p{
+    padding: 10px 15px;
+}
+
+.coursebox-info{
+   width: 73%;
+    height: 40px;
+   
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: lightgray;
+    
+
+  
+}
+
+.coursebox-info-right ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+
+}
+.coursebox-info-right ul li a{
+    font-size: 13px;
+    padding: 0 10px;
+    text-decoration: none;
+    color: blue;
+}
+
+.coursebox-info-left button{
+    border: none;
+    padding: 8px;
+   border-radius: 5px;
+   margin-left: 5px;
+   color: white;
+
+}
+
+.action-buttons{
+
+
+
+    padding-right: 20px;
+    
+}
+
+.action-buttons button{
+    border: none;
+    padding: 8px;
+   border-radius: 5px;
+   margin-left: 5px;
+   color: white;
+}
