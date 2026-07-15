@@ -1,0 +1,11 @@
+*{
+    direction: rtl;
+
+}
+
+
+@font-face {
+    font-family: vazir;
+    src: url(./font/Vazir-Regular-UI.ttf);
+}
+

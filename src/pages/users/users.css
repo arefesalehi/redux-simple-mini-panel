@@ -1,0 +1,82 @@
+.main{
+    width: 100%;
+    height: auto;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+    background-color: white;
+  
+
+;
+
+}
+
+.menu ul{
+    display: flex;
+    border-bottom: 1px solid rgb(204, 201, 201);
+
+    
+}
+
+
+.menu ul li {
+    margin: 20px 15px;
+    
+}
+
+.menu ul li:hover{
+    border-bottom: 2px solid blue;
+     
+}
+
+
+
+.menu ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+
+
+.menu ul li a svg{
+    margin-left: 10px;
+}
+
+
+
+
+.add-user-input  input{
+    width: 98%;
+    height: 40px;
+    border-radius: 5px;
+    margin: 30px 15px;
+    padding: 10px;
+    border: 1px solid lightgray;
+}
+.remove-user-input{
+    margin-left: 20px;
+}
+.remove-user-input button{
+    width: 90%;
+    padding: 12px;
+    border: none;
+    color: white;
+    background-color: blue;
+    border-radius: 5px;
+    margin: 30px 15px;
+}
+
+.users{
+    width: 96%;
+    height: 100px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px 0 60px 0;
+    padding: 15px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin: auto;
+    border-radius: 5px;
+    margin-top: 40px;
+}
