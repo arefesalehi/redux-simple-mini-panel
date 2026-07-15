@@ -12,7 +12,7 @@ const Header = () => {
               <div className="header-right">
                 <img src="img/admin/profile/banana.png" alt="" />
                 <div>
-                  <p>محمد امین سعیدی راد</p>
+                  <p> عارفه صالحی</p>
                   <p>توسعه دهنده جاوا اسکریپت</p>
                 </div>
               </div>

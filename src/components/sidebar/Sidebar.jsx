@@ -11,7 +11,7 @@ const Sidebar = () => {
           </span>
         </div>
         <div className="profile-name">
-          <p>محمد امین سعیدی راد</p>
+          <p>   عارفه صالحی</p>
           <p>توسعه دهنده جاوا اسکریپت</p>
         </div>
         <div className="name">
